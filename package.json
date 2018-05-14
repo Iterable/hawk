@@ -12,18 +12,15 @@
     "scheme",
     "hawk"
   ],
-  "engines": {
-    "node": "0.8.x"
-  },
   "dependencies": {
-    "hoek": "0.7.x",
-    "boom": "0.3.x",
-    "cryptiles": "0.1.x",
-    "sntp": "0.1.x"
+    "hoek": "~5.0.3",
+    "boom": "~7.2.0",
+    "cryptiles": "~4.1.1",
+    "sntp": "~3.0.1"
   },
   "devDependencies": {
-    "lab": "0.0.x",
-    "complexity-report": "0.x.x"
+    "lab": "~15.4.5",
+    "complexity-report": "~2.0.0-alpha"
   },
   "scripts": {
     "test": "make test-cov"
