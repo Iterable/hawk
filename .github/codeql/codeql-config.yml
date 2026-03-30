@@ -1,0 +1,16 @@
+name: "Ignore Markdown and Specific Paths"
+
+# This prevents CodeQL from analyzing these files entirely
+paths-ignore:
+  - "**/*.md"
+  - "**/no_eval_in_javascript/**"
+
+
+# Optional: You can still specify your query suites here
+queries:
+  - uses: security-extended
+  - uses: security-and-quality
+
+extractor_options:
+  javascript-typescript:
+    ecma_version: 2022
